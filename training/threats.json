@@ -1,0 +1,12 @@
+{
+    "fire": {
+        "_id": 0,
+        "name": "fire",
+        "path": "training/data/fire"
+    },
+    "robbery": {
+        "_id": 1,
+        "name": "robbery",
+        "path": "training/data/robbery"
+    }
+}
