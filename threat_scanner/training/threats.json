@@ -2,11 +2,11 @@
     "fire": {
         "_id": 0,
         "name": "fire",
-        "path": "threatscan/training/data/fire"
+        "path": "threat_scanner/training/data/fire"
     },
     "robbery": {
         "_id": 1,
         "name": "robbery",
-        "path": "threatscan/training/data/robbery"
+        "path": "threat_scanner/training/data/robbery"
     }
 }

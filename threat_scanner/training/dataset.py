@@ -4,7 +4,7 @@ import torch
 import numpy as np
 from tqdm import tqdm
 from torch.utils.data import Dataset
-from threatscan.tools.frame_preprocess import preprocess_frames
+from threat_scanner.tools.frame_preprocess import preprocess_frames
 
 class ThreatDataset(Dataset):
     def __init__(self, directories, labels, processor, max_frames=16):

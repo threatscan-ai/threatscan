@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="threatscan", 
-    version="0.1.0",         
+    name="threat_scanner", 
+    version="0.1.2",         
     author="Ogo-oluwasubomi Popoola",
     author_email="popoolaogooluwasubomi@gmail.com",
     description="ThreatScan is an open-source Python package designed to detect potential physical threats in videos",
