@@ -12,7 +12,7 @@ This package provides a streamlined approach to:
 
 ## Installation
 
-You can install ThreatScan using pip:
+You can install [ThreatScan](https://pypi.org/project/threat-scan/0.1.0/) using pip:
 ```
 pip install threatscan
 ```

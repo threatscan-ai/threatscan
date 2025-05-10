@@ -4,3 +4,8 @@
 # Cache
 .DS_Store
 __pycache__
+
+# build
+build
+dist
+threat_scan.egg-info
