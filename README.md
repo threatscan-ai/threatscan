@@ -71,9 +71,9 @@ python3 -m main
 To run the application using a specific video file:
 
 ```
-python3 -m main --source detector/examples/fire.mov
+python3 -m main --source threatscan/detector/examples/fire.mp4
 ```
-Replace `detector/examples/fire.mov` with the actual path to your video file.
+Replace `threatscan/detector/examples/fire.mp4` with the actual path to your video file.
 
 * With a Custom Model
 To run the application using a specific trained model:

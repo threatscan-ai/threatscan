@@ -3,12 +3,12 @@ import torch
 from torch.utils.data import DataLoader
 from sklearn.model_selection import train_test_split
 
-from training.train import train
-from training.evaluate import evaluate
-from training.load_model import load_model
-from training.load_threat import load_threat
-from training.save_model import save_model
-from training.dataset import ThreatDataset
+from threatscan.training.train import train
+from threatscan.training.evaluate import evaluate
+from threatscan.training.load_model import load_model
+from threatscan.training.load_threat import load_threat
+from threatscan.training.save_model import save_model
+from threatscan.training.dataset import ThreatDataset
 
 def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"

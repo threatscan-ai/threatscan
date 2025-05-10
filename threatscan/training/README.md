@@ -13,4 +13,4 @@ important: All _id's must be unique
 
 # To train
 return the parent directory and run:
-python3 -m train
+python3 -m threatscan.train

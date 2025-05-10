@@ -1,7 +1,7 @@
 import cv2
 import torch
 from transformers import VideoMAEImageProcessor, VideoMAEForVideoClassification
-from tools.frame_preprocess import preprocess_frame
+from threatscan.tools.frame_preprocess import preprocess_frame
 
 class ThreatDetector:
     def __init__(self, model_name):

@@ -1,8 +1,8 @@
 import json
 
-from training.threat import Threat
+from threatscan.training.threat import Threat
 
-def load_threat(filepath="training/threats.json"):
+def load_threat(filepath="threatscan/training/threats.json"):
     try:
         with open(filepath, 'r') as file:
             data = json.load(file)

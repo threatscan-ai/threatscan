@@ -2,7 +2,7 @@ import os
 import sys
 import argparse
 
-from detector.threat import ThreatDetector
+from threatscan.detector.threat import ThreatDetector
 
 def main():
     parser = argparse.ArgumentParser(description="Discover threats from video files or live feed.")
